@@ -9,9 +9,9 @@ const Header = () => {
         <div className="header__profile">
           <img src={HeaderImage} alt="Header Portait" />
         </div>
-        <h3>Hajia Bintu</h3>
+        <h3>Jyothi Santoshi Karuturi</h3>
         <p>
-        You are a click away from building your dream website or web app. Send me the details of your project for a modern, mobile responsive, highly performant website today!
+        I'm a computer science graduate student who is deeply enthusiastic about Full Stack Development.  I possess a strong drive for crafting user-friendly interfaces coupled with a backend that can easily scale. Furthermore, I have a keen interest in delving into the realm of data structures and algorithms. I enjoy taking on intricate problems directly, aiming to provide technically robust solutions that operate with optimal effectiveness.
         </p>
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Let's Talk</a>
