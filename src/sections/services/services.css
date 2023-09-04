@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem 4rem;
-
+    margin-top: 1.5rem;
 }
 
 .card.service {
@@ -12,21 +12,29 @@
 }
 
 .service__icon {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     padding: 0.6rem;
     border-radius: var(--border-radius-3);
     font-size: 1.5rem;
     color: var(--color-white);
     transition: var(--transition);
 }
-
 .service:hover .service__icon{
     background: var(--color-light);
     color: var(--color-primary);
 }
 
-.service h4 {
+.service h5 {
     margin-bottom: 0.7rem;
+}
+
+
+.service__sub_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* MEDIA QUERIES (tablet) */

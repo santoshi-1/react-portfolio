@@ -1,32 +1,42 @@
-import { SiAdobexd } from "react-icons/si";
-import { RiReactjsLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiFillAppstore } from "react-icons/ai";
+import UF from "../../assets/UF.png";
+import NITD from "../../assets/nitdgp.png";
 
 const data = [
   {
     id: 1,
-    icon: <SiAdobexd />,
-    title: "UI/UX Design",
-    desc: "My designs are modern and intuitive. I use industry-standard rules to make sure your users have fun using your product.",
+    icon: (
+      <img
+        src={UF}
+        alt="UF Img"
+        style={{
+          width: 150,
+          height: 100,
+          objectFit: "fill",
+          // borderRadius: 50,
+        }}
+      />
+    ),
+    title:
+      "Master's in Computer and Information Sciences, University of Florida, Gainesville, USA",
+    desc: "Januray 2023 - January 2025",
   },
   {
     id: 2,
-    icon: <RiReactjsLine />,
-    title: "Frontend Development",
-    desc: "Your product will look good and will be accessible on all devices, including mobile phones, tablets, and desktop.",
-  },
-  {
-    id: 3,
-    icon: <FaServer />,
-    title: "Backend Development",
-    desc: "The security of your business/product is taken seriously right from the start of the project. I will make sure your website/app is secure from attacks.",
-  },
-  {
-    id: 4,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    desc: "Unlike other developers in the market, I will building an app that runs on both IOS and Android devices without any extra cost to you.",
+    icon: (
+      <img
+        src={NITD}
+        alt="UF Img"
+        style={{
+          width: 150,
+          height: 100,
+          objectFit: "contain",
+          // borderRadius: 50,
+        }}
+      />
+    ),
+    title:
+      "Bachelor of Technology in Information Technology, National Institute of Technology, Durgapur, India",
+    desc: "July 2016 - July 2020",
   },
 ];
 

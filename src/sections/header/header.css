@@ -1,12 +1,13 @@
 header {
-    margin-top: 5rem;
+    /* margin-top: 7rem; */
     /* height: calc(100vh - 5rem); */
     display: grid;
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
     height:auto;
-    margin-bottom: 1rem;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
 }
 
 .header__container {
@@ -66,13 +67,16 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
-        height: 100vh;
+        height: 50vh;
     }
 }
 
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
+    header{
+        height: 80vh;
+    }
     .header__profile {
         width: 14rem;
         height: 17rem;

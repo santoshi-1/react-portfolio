@@ -1,96 +1,38 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import Image2 from "../../assets/portfolio.avif";
+import Image3 from "../../assets/student_portal.avif";
+import Image8 from "../../assets/expenses_app.avif";
 
 const data = [
-    {
-        id: 1,
-        category: 'uiux',
-        image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 2,
-        category: 'frontend',
-        image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 3,
-        category: 'frontend',
-        image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 4,
-        category: 'uiux',
-        image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    }
-]
+  {
+    id: 2,
+    category: "frontend",
+    image: Image2,
+    title: "Personal Portfolio",
+    desc: "A responsive personal portfolio project, developed with React. It provides an optimal user experience while highlighting my work, projects, and expertise in a visually appealing manner.",
+    demo: "http://egatortutorials.com",
+    technologies_used: "React.js, HTML, CSS, JavaScript",
+    github: "https://github.com/santoshi-1/react-portfolio",
+  },
+  {
+    id: 3,
+    category: "frontend",
+    image: Image3,
+    title: "Student Information Portal",
+    desc: "Designed and created an engaging university website featuring distinct roles for administrators and students",
+    technologies_used: "HTML, CSS, JavaScript, PHP, MySQL",
+    demo: "http://egatortutorials.com",
+    // github: "https://github.com/egattor",
+  },
+  {
+    id: 8,
+    category: "backend",
+    image: Image8,
+    title: "Expense Manager Application",
+    desc: "Developed a comprehensive Spring Boot application for expense management, allowing users to seamlessly add, delete, update, and view expenses.",
+    demo: "http://egatortutorials.com",
+    technologies_used: "Java, Spring Boot, MySQL",
+    github: "https://github.com/santoshi-1/expensetrackerapi",
+  },
+];
 
-
-export default data
+export default data;

@@ -1,8 +1,14 @@
 .about__container {
-    display: grid;
-    grid-template-columns: 35% 53%;
-    gap: 12%;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 35% 53%; */
+    /* gap: 12%; */
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
 }
+
+
 
 .about__portrait {
     height: fit-content;
@@ -18,7 +24,7 @@
 .about__cards {
     margin: 3rem 0 1.5rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -39,12 +45,12 @@
 }
 
 .card.about__card:hover .about__card-icon {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     color: var(--color-white);
 }
 
 .card.about__card h5 {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .about__right p {
