@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0200fe48.css",
+    "main.js": "/react-portfolio/static/js/main.7049c53a.js",
+    "static/media/cv.pdf": "/react-portfolio/static/media/cv.eedf4d5f4e1f8fcbce12.pdf",
+    "static/media/nitdgp.png": "/react-portfolio/static/media/nitdgp.339d929a337cd24f33ea.png",
+    "static/media/UF.png": "/react-portfolio/static/media/UF.af0262de00a31e327bb6.png",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.3595aec94860af57afe6.jpg",
+    "static/media/expenses_app.avif": "/react-portfolio/static/media/expenses_app.4d29d4ae09f70fab4e85.avif",
+    "static/media/iiitHyd.jpeg": "/react-portfolio/static/media/iiitHyd.9bac3befb9dcb783dacb.jpeg",
+    "static/media/student_portal.avif": "/react-portfolio/static/media/student_portal.9b4d4d5bb67792be690a.avif",
+    "static/media/portfolio.avif": "/react-portfolio/static/media/portfolio.1cf7cb2006c9ac5d54d4.avif",
+    "index.html": "/react-portfolio/index.html",
+    "main.0200fe48.css.map": "/react-portfolio/static/css/main.0200fe48.css.map",
+    "main.7049c53a.js.map": "/react-portfolio/static/js/main.7049c53a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0200fe48.css",
+    "static/js/main.7049c53a.js"
+  ]
+}
