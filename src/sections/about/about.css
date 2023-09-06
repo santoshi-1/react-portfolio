@@ -81,13 +81,13 @@
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
-.about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
 
-.about__right .btn {
-    margin-top: 2rem;
-}
+    .about__cards {
+        grid-template-columns: 1fr;
+    }
+
+    .about__right .btn {
+        margin-top: 2rem;
+    }
 
 }
